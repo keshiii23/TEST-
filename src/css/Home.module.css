@@ -1,0 +1,13 @@
+.hero { max-width: 600px; margin: 100px auto; padding: 24px; text-align: center; }
+.hero p { color: var(--muted); margin-bottom: 24px; }
+.actions { display: flex; gap: 12px; justify-content: center; }
+.primary, .outline {
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+}
+.primary { background: var(--accent); color: #111; }
+.primary:hover { background: var(--accent-dark); }
+.outline { border: 1px solid var(--accent); color: var(--accent); }
+.outline:hover { background: var(--accent); color: #111; }
